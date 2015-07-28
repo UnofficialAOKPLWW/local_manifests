@@ -26,6 +26,8 @@
   <project path="frameworks/av" name="UnofficialAOKPLWW/frameworks_av" remote="gh" revision="kitkat" groups="pdk" />
   <remove-project name="AOKP/frameworks_base" />
   <project path="frameworks/base" name="UnofficialAOKPLWW/frameworks_base" remote="gh" revision="kitkat" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
+  <project path="frameworks/native" name="UnofficialAOKPLWW/android_frameworks_native" remote="gh" revision="cm-11.0" groups="pdk" />
   <!-- CyanogenMod projects -->
   <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH"  remote="gh" revision="cm-11.0" />
 </manifest>
